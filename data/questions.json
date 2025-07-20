@@ -1,0 +1,70 @@
+[
+    {
+        "id": "q1",
+        "age_group": "all",
+        "question": "How often do you feel stressed or anxious?",
+        "options": [
+            "4. Rarely", 
+            "3. Sometimes", 
+            "2. Often", 
+            "1. Always"
+        ]
+    },
+    {
+        "id": "q2",
+        "age_group": "all",
+        "question": "Do you find it hard to relax or sleep at night?",
+        "options": [
+            "4. Never", 
+            "3. Occasionally", 
+            "2. Frequently", 
+            "1. Almost always"
+        ]
+    },
+    {
+        "id": "q3",
+        "age_group": "all",
+        "question": "How do you usually handle unexpected challenges?",
+        "options": [
+            "4. Calmly", 
+            "3. With some anxiety", 
+            "2. Panic", 
+            "1. Avoid them"
+        ]
+    },
+    {
+        "id": "q4",
+        "age_group": "adult",
+        "question": "How do you feel about your current career path?",
+        "options": [
+            "4. Excited and fulfilled",
+            "3. Satisfied, but open to change",
+            "2. Stagnant or bored",
+            "1. Stressed and looking for an exit"
+        ]
+    },
+    {
+        "id": "q5",
+        "age_group": "adult",
+        "gender": "female",
+        "question": "When thinking about the future, what is your primary focus?",
+        "options": [
+            "4. Long-term stability and family well-being",
+            "3. Career growth and personal development",
+            "2. Maintaining current happiness and relationships",
+            "1. I try not to think too far ahead"
+        ]
+    },
+    {
+        "id": "q6",
+        "age_group": "adult",
+        "gender": "male",
+        "question": "How do you typically approach taking risks in your life or career?",
+        "options": [
+            "4. I take calculated risks for high rewards",
+            "3. I prefer safe, predictable outcomes",
+            "2. I am generally risk-averse",
+            "1. I tend to act impulsively"
+        ]
+    }
+]
