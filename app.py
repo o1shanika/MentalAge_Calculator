@@ -4,7 +4,6 @@ from streamlit_lottie import st_lottie
 
 st.set_page_config(page_title="Sri Lankan Mental Age Test", layout="centered")
 
-# Function to load Lottie animation from a URL
 def load_lottieurl(url: str):
     r = requests.get(url)
     if r.status_code != 200:
@@ -14,13 +13,14 @@ def load_lottieurl(url: str):
 def main():
     st.title("🧠 Mental Age Checker 🇱🇰")
 
-    # Load and display the Lottie animation
-    lottie_url = "https://assets9.lottiefiles.com/packages/lf20_5n8yfkac.json"
+    # Safe Lottie animation
+    lottie_url = "https://assets2.lottiefiles.com/packages/lf20_jcikwtux.json"
     lottie_json = load_lottieurl(lottie_url)
 
     if lottie_json:
-        # You can adjust width and height as needed
-        st_lottie(lottie_json, speed=1, width=250, height=250, key="brain_animation")
+        st_lottie(lottie_json, speed=1, width=250, height=250, key="safe_brain_animation")
+    else:
+        st.image("https://media.giphy.com/media/fAMd9YJlsO2S1Irs5I/giphy.gif", width=250)
 
     st.markdown("""
         ### Welcome to the Mental Age Checker!
